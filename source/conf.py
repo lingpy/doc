@@ -66,8 +66,8 @@ master_doc = 'index'
 # General information about the project.
 project = 'LingPy'
 copyright = ''
-authors = 'Johann-Mattis List and Robert Forkel' 
-collaborators = 'Simon Greenhill, Steven Moran, Peter Bouda, Johannes Dellert, Taraka Rama, Frank Nagel, and Tiago Tresoldi'
+authors = 'Johann-Mattis List, Simon Greenhill, and Robert Forkel' 
+collaborators = 'Steven Moran, Peter Bouda, Johannes Dellert, Taraka Rama, Frank Nagel, and Tiago Tresoldi'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -81,7 +81,7 @@ today = str(datetime.datetime.today()).split(' ')[0]
 rst_prolog = """
 .. |authors| replace:: {authors}
 .. |contributors| replace:: {collaborators}
-.. |quoteas| replace:: List, Johann-Mattis and Forkel, Robert ({year}): **LingPy.  A Python library for historical linguistics**. Version {version}.  URL: http://lingpy.org, DOI: https://zenodo.org/badge/latestdoi/5137/lingpy/lingpy.  With contributions by {collaborators}. Jena: Max Planck Institute for the Science of Human History.  
+.. |quoteas| replace:: List, Johann-Mattis; Greenhill, Simon; and Forkel, Robert ({year}): **LingPy.  A Python library for historical linguistics**. Version {version}.  URL: http://lingpy.org, DOI: https://zenodo.org/badge/latestdoi/5137/lingpy/lingpy.  With contributions by {collaborators}. Jena: Max Planck Institute for the Science of Human History.  
 """.format(
         year=str(datetime.datetime.today()).split('-')[0],
         version=lingpy.__version__,
