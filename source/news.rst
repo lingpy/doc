@@ -42,7 +42,7 @@ script.
 Sanity Checks of Linguistic Data
 --------------------------------
 
-We introduce a new module, called :py:module:`~lingpy.compare.sanity`. In this module, we provide a couple of new
+We introduce a new module, called :py:mod:`~lingpy.compare.sanity`. In this module, we provide a couple of new
 functions which you can use to check the consistency of your data. One specific focus, given that
 LingPy is focused on sequence comparison, is the *coverage* of words in a wordlist. Coverage is
 hereby understood as the minimal number of words shared per meaning slot in each language pair.
@@ -61,8 +61,8 @@ class. Mutual coverage can be computed in a straightforward manner::
       200
 
 We highly recommend all users which deal with spotty and patchy data to have a closer look at the
-coverage functions offered in the :py:module:`~lingpy.compare.sanity` module. You may also want to check out the
-:py:func:`fun~lingpy.compare.sanity.synonymy` function which computes the number of synonyms in your dataset. Here
+coverage functions offered in the :py:mod:`~lingpy.compare.sanity` module. You may also want to check out the
+:py:func:`~lingpy.compare.sanity.synonymy` function which computes the number of synonyms in your dataset. Here
 again, we recommend to pay specific attention to not exceed a value of maximally three words per
 concept and language.
 
@@ -78,7 +78,7 @@ Random Clusters, Lumper, and Splitter
 -------------------------------------
 
 We added a new experimental module, in which we added a couple of functions that help to deal with
-random clusters. The module :py:module:`~lingpy.algorithm.cluster_util` offers ways to mutate a given cluster, to
+random clusters. The module :py:mod:`~lingpy.algorithm.cluster_util` offers ways to mutate a given cluster, to
 create a random cluster, or to create all possible clusters for a given size of entities. This
 module was originally prepared to allow to add random cognate sets to a wordlist in order to compare
 this random output with non-random algorithms for cognate detection::
