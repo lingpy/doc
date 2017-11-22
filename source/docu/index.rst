@@ -46,13 +46,6 @@ Sequence Comparison
    align/pairwise
    align/multiple
 
-Handling Concepts
-^^^^^^^^^^^^^^^^^
-.. toctree::
-   :maxdepth: 1
-
-   meaning/concepts
-
 Language Comparison
 ^^^^^^^^^^^^^^^^^^^
 
