@@ -24,7 +24,7 @@ if sphinx.__version__ < '1.0.1':
 import os, re, pydoc
 from docscrape_sphinx import get_doc_object, SphinxDocString
 
-from sphinx.util.compat import Directive
+from docutils.parsers.rst import Directive
 import inspect
 
 def mangle_docstrings(app, what, name, obj, options, lines,
