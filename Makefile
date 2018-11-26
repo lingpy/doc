@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    = -v -a
-SPHINXBUILD   = ~/.pythonvenv/bin/sphinx-build
+SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = ../../../lingpy.github.io
 
