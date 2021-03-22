@@ -1,6 +1,9 @@
 {% extends "!layout.html" %}
 {% block extrahead %}
 <link rel="stylesheet" type="text/css" href="_static/handheld.css" media="screen and (max-device-width: 720px)" />
+<style>
+li.nav-item{display: None!important};
+</style>
 {% endblock %}
 {% block rootrellink %}
 	<li><a href="{{ pathto('index') }}">Home</a> |&nbsp;</li>
@@ -10,8 +13,7 @@
 	<li><a href="{{ pathto('tutorial/index') }}">Tutorial</a> |&nbsp;</li>
 	<li><a href="{{ pathto('docu/index') }}">Documentation</a> |&nbsp;</li>
 	<li><a href="{{ pathto('reference/modules') }}">Reference</a> |&nbsp;</li>
-        <li><a href="{{ pathto('download') }}">Download </a> </li>
-
+  <li><a href="{{ pathto('download') }}">Download</a></li>
 {% endblock %}
 
 {% block relbar1 %}
