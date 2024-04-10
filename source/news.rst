@@ -6,8 +6,7 @@ Version |version| of LingPy serves in primary instance as a bugfix release that 
 that LingPy can be used properly. Nevertheless, there are certain things that have changed, and that
 should also be mentioned in this context.
 
-In the following, we list both the new features introduced in version 2.6.3 and 2.6.4, as well as the new
-functions from the new version |version|.
+In the following, we list new features from past versions.
 
 Partial Cognate Detection with Customized Scorer (2.6.5)
 --------------------------------------------------------
