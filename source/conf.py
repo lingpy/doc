@@ -80,8 +80,8 @@ release = lingpy.__version__
 today = str(datetime.datetime.today()).split(' ')[0]
 rst_prolog = """
 .. |authors| replace:: {authors}
-.. |contributors| replace:: {collaborators}
-.. |quoteas| replace:: List, Johann-Mattis and Forkel, Robert ({year}): **LingPy.  A Python library for historical linguistics**. Version {version}.  URL: https://lingpy.org, DOI: https://zenodo.org/badge/latestdoi/5137/lingpy/lingpy. With contributions by {collaborators}. Passau: University of Passau.  """.format(
+.. |contributors| replace:: {collaborators} 
+.. |quoteas| replace:: List, Johann-Mattis and Forkel, Robert ({year}): **LingPy. A Python library for historical linguistics**. Version {version}. URL: https://lingpy.org, PYPI: https://pypi.org/project/lingpy/. With contributions by {collaborators}.  Passau: MCL Chair at the University of Passau.""".format(
         year=str(datetime.datetime.today()).split('-')[0],
         version=lingpy.__version__,
         collaborators=collaborators,
